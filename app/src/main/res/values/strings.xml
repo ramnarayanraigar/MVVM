@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="lets_eat_quality_food">Let\'s eat \nQuality food</string>
+    <string name="search">Search</string>
+    <string name="near_restaurant">Near Restaurant</string>
+    <string name="see_all">See All</string>
+    <string name="title">Title</string>
+</resources>
