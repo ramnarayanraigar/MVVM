@@ -3,6 +3,7 @@
     package="com.ramnarayan.mvvm">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:name=".Application"
@@ -13,11 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVVM">
         <activity
-            android:name=".ui.cocktail.CocktailDetailActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.cocktail.CocktailListActivity"
+            android:name=".ui.stackoverflow.StackOverflowQuestionListActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

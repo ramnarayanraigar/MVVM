@@ -2,7 +2,7 @@ package com.ramnarayan.mvvm.di
 
 import android.content.Context
 import com.ramnarayan.domain.di.DomainDependencySetup
-import com.ramnarayan.mvvm.ui.cocktail.CocktailListViewModel
+import com.ramnarayan.mvvm.ui.stackoverflow.StackOverflowQuestionViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.core.context.loadKoinModules
@@ -13,7 +13,7 @@ import javax.inject.Inject
 object UIDependencySetup {
 
     private val uiModules = module {
-        viewModel { CocktailListViewModel(get()) }
+        viewModel { StackOverflowQuestionViewModel(get(), get()) }
     }
 
     @JvmStatic

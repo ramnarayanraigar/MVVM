@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#EEEEEE</color>
+    <color name="light_yellow">#fff2cc</color>
+    <color name="light_blue">#99ffff</color>
+    <color name="corner">#949494</color>
+    <color name="bottom_sheet">#e1d5e7</color>
 </resources>

@@ -2,6 +2,6 @@ package com.ramnarayan.data.api
 
 class API {
     companion object {
-        const val cocktailUrl = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s="
+        const val stackOverflowQuestion = "https://api.stackexchange.com/2.2/questions?key=ZiXCZbWaOwnDgpVT9Hx8IA((&order=desc&sort=activity&site=stackoverflow";
     }
 }

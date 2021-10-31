@@ -5,4 +5,10 @@
     <string name="near_restaurant">Near Restaurant</string>
     <string name="see_all">See All</string>
     <string name="title">Title</string>
+    <string name="average_view_count">Average View Count</string>
+    <string name="average_answer_count">Average Answer Count</string>
+    <string name="search_bar">Search Bar</string>
+    <string name="no_internet_available">No internet available</string>
+    <string name="no_result_found">No result found</string>
+    <string name="clear">Clear</string>
 </resources>

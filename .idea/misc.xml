@@ -4,10 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.36875" />
+        <entry key="app/src/main/res/drawable/layout_rounded.xml" value="0.36875" />
         <entry key="app/src/main/res/drawable/layout_rounded_bg.xml" value="0.36875" />
+        <entry key="app/src/main/res/drawable/rounded_edittext.xml" value="0.36875" />
         <entry key="app/src/main/res/layout/activity_cocktail_detail.xml" value="0.2572463768115942" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_stack_overflow_question_list.xml" value="0.2572463768115942" />
+        <entry key="app/src/main/res/layout/bottom_sheet_clear.xml" value="0.2572463768115942" />
         <entry key="app/src/main/res/layout/item_cocktail.xml" value="0.2572463768115942" />
+        <entry key="app/src/main/res/layout/item_language.xml" value="0.2572463768115942" />
+        <entry key="app/src/main/res/layout/item_question_list.xml" value="0.2572463768115942" />
       </map>
     </option>
   </component>

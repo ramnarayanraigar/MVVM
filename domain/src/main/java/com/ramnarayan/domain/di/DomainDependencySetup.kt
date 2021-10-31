@@ -1,14 +1,16 @@
 package com.ramnarayan.domain.di
 
 import com.ramnarayan.data.di.RepositoryDependencySetup
-import com.ramnarayan.domain.usecase.CocktailListUseCase
+import com.ramnarayan.domain.usecase.GetStackOverflowDataFromDbUseCase
+import com.ramnarayan.domain.usecase.StackOverflowQuestionUseCase
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
 object DomainDependencySetup {
 
     private val useCaseModules = module {
-        factory { CocktailListUseCase(get()) }
+        factory { StackOverflowQuestionUseCase(get()) }
+        factory { GetStackOverflowDataFromDbUseCase(get()) }
     }
 
     fun inject() {
